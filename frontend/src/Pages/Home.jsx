@@ -12,7 +12,7 @@ export default function Home() {
 
     try {
       // Fetch food details from the backend (e.g., calories, ingredients)
-      const response = await axios.get(`http://localhost:3000/dish/${scannedDish.dishName}`);
+      const response = await axios.get(`http://localhost:5000/dish/${scannedDish.dishName}`);
 
       // Assuming the response contains the full details of the dish
       setDishData(response.data); // Set the dish details received from the server
