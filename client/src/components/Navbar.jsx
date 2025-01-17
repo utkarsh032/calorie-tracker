@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <img width="80px" className="shadow-lg " src={logo} alt="MyBrand Logo" />
+            <img width="80px" className="" src={logo} alt="MyBrand Logo" />
             <span className="text-2xl font-merienda font-bold tracking-wide text-white ml-2">
               Calories
             </span>
@@ -44,6 +44,11 @@ export default function Navbar() {
               className="px-3 py-2 rounded-md text-white hover:bg-[#B92F72] hover:text-[#E9BFBD] transition duration-300 ease-in-out"
             >
               Support
+            </Link>
+            <Link
+              to="/form"
+              className="px-3 py-2 rounded-md text-white hover:bg-[#B92F72] hover:text-[#E9BFBD] transition duration-300 ease-in-out"
+            >Sign-In
             </Link>
           </div>
 
