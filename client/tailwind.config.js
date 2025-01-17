@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        merienda: ['Merienda', 'cursive'],
+      },
+      colors: {
+        primary: "#7A2F83",
+        secondary: "#B92F72",
+        accent: "#E9BFBD",
+        highlight: "#EE4043",
+        light: "#FFFFFF",
+      },
+    },
   },
   plugins: [],
 }
